@@ -3,7 +3,7 @@
 const Footer = () => {
   return (
     <footer id="footer" role="contentinfo">
-      Footer
+      <a href="">test@test.com</a>
     </footer>
   )
 }
