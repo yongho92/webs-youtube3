@@ -1,6 +1,10 @@
 ﻿.header_logo {
     border-bottom: 1px solid var(--black100);
 
+    @media (max-width: 800px){
+        border-bottom: 0;
+    }
+
     a {
         display: flex;
         padding: 10px;
@@ -18,7 +22,7 @@
         span {
             font-size: 20px;
             line-height: 1;
-            font-weight: 900; 
+            font-weight: 900;
             text-transform: uppercase;
         }
     }
@@ -104,6 +108,10 @@
     padding: 15px 0 10px;
     background-color: var(--blackAlpha100);
     backdrop-filter: blur(10px);
+
+    @media (max-width: 800px){
+        display: none;
+    }
 
     li {
         display: inline-block;
