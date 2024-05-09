@@ -9,7 +9,6 @@ const Today = () => {
         <Main
             title="추천 영상"
             description="오늘의 추천 유튜브 영상입니다.">
-            Today
             <section id="todayPage">
                 <h2>오늘의 추천영상 입니다.</h2>
                 {todayText.map((today, key) => (
